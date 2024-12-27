@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    background: #F3D7B7;
+    padding-top: 22px;
+}
+header .container{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    color: black;
+}
+.hero{
+    background-color: #F3D7B7; 
+    padding: 100px 0;
+    height: 670px;
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-p{
+    width: 464px;
+}
+.hero h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+}
+.hero p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 40px;
+}
+.btn{
+    background: #0A775F;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 47px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    color: white;
+}
+.hero-img{
+    width: 650px;
+    position: relative;
+}
+.ko{
+    width: 100%;
+    position: absolute;
+    top: -200px;
+    left: 0;
+}
+.ki{
+    position: absolute;
+    top: -300px;
+    left: -100px;
+    z-index: 5;
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes a{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.hero2{
+    padding: 100px 0;
+}
+.hero2 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58.59px;
+    text-align: center;
+}
+.ota{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.25px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 10px;
+}
+.ota2{
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+}
+footer{
+    background: #F3D7B7;
+    height: 160px;
+}
+footer .container{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 62px;
+}
+.box{
+    display: flex;
+    gap: 20px;
+}
